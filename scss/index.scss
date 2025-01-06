@@ -1,0 +1,19 @@
+
+
+// here base file 
+@import "./base/root";
+@import"./base/mixing";
+@import "./base/variable";
+
+// here component
+@import "./component/button";
+
+// here page  file
+@import "./pages/hero";
+@import "./pages/brand";
+@import "./pages/rentCar";
+
+
+
+
+

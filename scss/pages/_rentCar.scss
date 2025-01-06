@@ -1,0 +1,198 @@
+#RentCar{
+    margin-top: 70px;
+    .rentalCard-wepper{
+        
+        .rentCar-heading{
+            margin-bottom: 30px;
+            .btn-search{
+                @include btnPrimary($pd:19px 30px, $color:$color-white, $bg:$primary-color,$fsize:18px, $bra:4px, $border: none, $outline: none,  $tran: 0.4s, $hoverBG: $color-white, $hoverCol: $primary-color)
+            }
+        }
+        .card-WepperBox{
+            .Latest_Services_card {
+                border-radius: 4px;
+                overflow: hidden;
+                box-shadow: 0px 0px 60px 0px #0000001A;
+                border-radius: 10px;
+                transition: transform 0.3s ease;
+                margin-bottom: 30px;
+            
+                &:hover {
+                    
+                    
+                    .Latest_Scard_ImgBox img {
+                        transform: scale(1.1);
+                    }
+            
+                   
+                }
+            
+                .Latest_Scard_ImgBox {
+                    overflow: hidden;
+                    max-width: 342px;
+                    aspect-ratio: 342px/217px;
+            
+                    img {
+                        width: 100% !important;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 8px !important;
+                        
+                    }
+                }
+            
+                .number_two {
+                    margin-top: 50px;
+                }
+            
+                .Latest_Scard_price {
+                    font-size: 24px;
+                    color: $primary-color;
+                    font-weight: 700;
+                }
+            
+                .Latest_Scard_haert {
+                    top: 15px;
+                    right: 15px;
+                    line-height: initial;
+                    padding: 8px 7px;
+                    background-color: #0C81F3CC;
+                    border-radius: 4px;
+            
+                    i {
+                        color: #0C81F3CC;
+                        ;
+                        font-size: 20px;
+                    }
+                }
+            
+                .Latest_Scard__BlogerIcon {
+                    margin-bottom: 10px;
+                    .carRide-number{
+                    padding: 5px 10px;
+                    background-color: #E8EFFF;
+                    color: #5B5B5B;
+                    border-radius: 4px;
+                    font-size: 14px;
+                    line-height: 14px;
+                    font-weight: 400;
+                   }
+                   .ride-day{
+                    font-size: 16px;
+                    line-height: 28px;
+                    font-weight: 400;
+                    color: #5B5B5B;
+                   }
+                }
+            
+                .Latest_Scard_body {
+                    padding: 20px;
+                    .carbox{
+                        margin-top: 18px;
+                        padding: 0 8px;
+                        .carbox-items{
+                            span{
+                                color: #5B5B5B;
+                            }
+                        }
+                    }
+                }
+            
+                .Latest_Scard_icon {
+                    gap: 5px;
+                    color: #1778F2 !important;
+                    font-size: 14px;
+                }
+            
+                .Latest_Scard_title {
+                    margin-bottom: 0px;
+                    font-size: 22px;
+                    font-weight: 700;
+                    max-width: 100%;
+                    display: block; 
+                    white-space: normal; 
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid #E8EFFF;
+                    transition: all 0.3s linear;
+                    &:hover{
+                        border-color: $primary-color;
+                        transform: translateX(0);
+                    }
+            
+                    a {
+                        color: #111111;
+                        text-decoration: none;
+                    }
+                }
+            
+                .Latest_Scard_UserInfo {
+                    img {
+                        width: 25px;
+                        height: 25px;
+                        min-width: 25px;
+                        border-radius: 100%;
+                    }
+                }
+            
+                .Latest_Scard_User {
+                    margin-top: 15px;
+ 
+                    .Latest_Scard_UserInfo {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px; /* Add space between Latest_Scard_UserInfo and Latest_service_User_star */
+            
+                        a {
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+                            font-size: 16px;
+                            color: #647082;
+                            text-decoration: none;
+                        }
+                    }
+            
+                    .Latest_service_User_review {
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+            
+                        .Latest_service_User_reviewNumber {
+                            color: #647082;
+                            font-size: 14px;
+                            span{
+                                color: #06131C;
+                            }
+                        }
+            
+                        .Latest_service_User_star i {
+                            font-size: 11px;
+                            color: #F2C94C;
+                        }
+                    }
+                }
+            
+                .Latest_service_book_btn {
+                    display: block; /* Change to block for full width */
+                    width: 100%; /* Ensure full width */
+                    padding: 10px 20px;
+                    background-color: #E8EFFF;
+                    color: #333333;
+                    text-align: center;
+                    border-radius: 5px;
+                    text-decoration: none;
+                    margin-top: 20px;
+                    transition: 0.5s;
+                    transition: background-color 0.3s ease;
+                    font-weight: 700;
+            
+                    &:hover {
+                        background-color: #0C81F3;
+                        color: #fff;
+                    }
+                }
+            }
+            
+        }
+    }
+}

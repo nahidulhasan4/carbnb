@@ -1,0 +1,179 @@
+#header{
+    width: 100vw;
+    position: fixed;
+    z-index: 20;
+  #header-top{
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #4D4D4D;
+            .header-top_Box{
+                padding-top: 7px;
+                padding-bottom: 7px;
+
+                .header_conatctBOx{
+                 gap: 34px;
+                 margin-bottom: 0 !important;
+                    li{
+                      span{
+                        color: $color-white;
+                      }
+                      .line{
+                        width: 1px;
+                        height: 33px;
+                        background: #4D4D4D ;
+                      }
+                    }
+                }
+                .header-social_iconBox{
+                
+                    .followIcon{
+                        margin-bottom: 0 !important;
+                        margin-right: 34px;
+                       
+                    }
+                    .line{
+                        width: 1px;
+                        height: 33px;
+                        background: #4D4D4D ;
+                      }
+                    span{
+                        color: $color-white;
+                        margin-right: 12px;
+                    }
+                    .lognin_btn{
+                        margin-left: 34px;
+                        span{
+                            margin-left: 10px;
+                        }
+                    }
+                }
+             
+            }
+        }
+  .navbar{
+    border-bottom: 1px solid #4D4D4D;
+    .nav-menu{
+        li{
+            position: relative;
+      transition: 0.4s ;
+            a{
+                color: $color-white;
+                transition: 0.4s ;
+                font-size: 18px;
+                font-weight: 500 ;
+            }
+            &:hover {
+                a { 
+                    color: $primary-color; 
+                }
+                &:after { 
+                    transition: 0.4s;
+                    content: ""; 
+                    position: absolute;
+                    bottom: -19px; 
+                    left: 0; 
+                    right: 0; 
+                    width: 100%;  
+                    height: 2px;
+                    background-color: $primary-color;
+                  
+                }
+           }
+        }
+        .btn-search{
+            @include btnPrimary($pd:19px 30px, $color:$primary-color, $bg:$color-white,$fsize:18px, $bra:4px, $border: none, $outline: none,  $tran: 0.4s, $hoverBG: $primary-color, $hoverCol: $color-white)
+    
+        
+        }
+    
+  }
+
+    }
+   
+   
+}
+
+
+.hero{
+    
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-top: 230px;
+    padding-bottom: 75px;
+    .hero-benner{
+        
+        .hero-text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .hero_heading{
+                color: $color-white;
+            }
+            .hero-title{
+                color: $color-white;
+                font-size: 60px;
+                line-height: 70px;
+                text-align: center;
+            }
+        }
+        .hero-search{
+            margin-top: 95px;
+            padding-left: 218px;
+            padding-right: 218px;
+            .from{
+                 display: flex;
+                 align-self: center;
+                padding: 30px;
+                background-image: linear-gradient(135.86deg, rgba(177, 177, 177, 0.32) 5.24%, rgba(54, 53, 103, 0.2) 51.01%);
+                .row{
+                    width: 93% ;
+                    input[type="email"] {
+                        &::value{
+                            color: #999; 
+                            font-size: 16px;
+                            font-weight: 500;
+                       }
+                       
+                   }
+                }
+               
+                .btn-search{
+                    margin-left: 8px;
+                    padding: 14px;
+                    outline: none;
+                    border: none;
+                    background: $primary-color;
+                    border-radius: 4px;
+                }
+            }
+            
+            
+        }
+    }
+    .bgImg{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        z-index: -2;
+        left: 0;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+     .bg-liner{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        left: 0;
+        background-image: linear-gradient(13.09deg, rgba(0, 0, 0, 0.21) -47.46%, #000000 90.57%);
+    }
+   
+
+}

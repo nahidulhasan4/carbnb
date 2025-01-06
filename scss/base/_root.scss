@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: "Roboto", serif;
+ 
+}
+a{
+  text-decoration: none !important;
+
+}
+
+html,
+body,
+ul,
+ol,
+li,
+form,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+
+}
+
+.container {
+  max-width: 1440px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+ul {
+  padding-left: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+li {
+  list-style: none;
+}
+ .Car_name{
+  a {
+    text-decoration: none;
+    color: #5B5B5B;
+    transition: 0.4s;
+   
+  }
+  &:hover a{
+    color: #0C81F3 !important;
+}
+ }
+ 
