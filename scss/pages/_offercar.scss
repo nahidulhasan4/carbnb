@@ -1,0 +1,30 @@
+#ooferCar{
+    .offerCar-box{
+        .brand_heading {
+            gap: 18px;
+            margin-bottom: 30px;
+
+            .brand_slider {
+                gap: 20px;
+                button{
+                    border: none;
+                }
+
+                span {
+                    padding: 16px 21px;
+                    background-color: #E8EFFF;
+                    border-radius: 4px;
+                    transition: 0.4;
+                    &:hover {
+                        background-color: $primary-color; 
+                        path{
+                             stroke: $color-white;
+                            }
+                           
+                         }
+                    }
+                    }
+                   
+            }
+    }
+}
