@@ -645,4 +645,148 @@ li {
 #popularCar .rentalCard-wepper .card-WepperBox .Latest_Services_card .Latest_service_book_btn:hover {
   background-color: #0C81F3;
   color: #fff;
+}
+
+#delar {
+  padding-top: 80px;
+}
+#delar .delar-bg {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: #0C81F3;
+  z-index: 1;
+}
+#delar .delar-bg .bg-img {
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+#delar .delar-bg .bg-img .bg-vactor-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+#delar .delar-bg .delar-box {
+  gap: 30px;
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+#delar .delar-bg .delar-box .delar-content {
+  max-width: 535px;
+  width: 100%;
+}
+#delar .delar-bg .delar-box .delar-content .delar-content-title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+#delar .delar-bg .delar-box .delar-content .delar-content-info {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+#delar .delar-bg .delar-box .delar-content .delar-content-btn {
+  margin-top: 40px;
+  padding: 19px 30px;
+  background: #E8EFFF;
+  color: #06131C;
+  font-size: 18px;
+  border-radius: 4px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+#delar .delar-bg .delar-box .delar-content .delar-content-btn:hover {
+  background: #0C81F3;
+  color: #06131C;
+}
+#delar .delar-bg .delar-box .delar-Img-box {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-height: 350px;
+}
+#delar .delar-bg .delar-box .delar-Img-box .Img-box1 {
+  height: 238px;
+  left: 40px;
+  bottom: 48px;
+}
+#delar .delar-bg .delar-box .delar-Img-box .Img-box2 {
+  right: 145px;
+  top: -60px;
+}
+#delar .delar-bg .delar-box .delar-Img-box .Img-box3 {
+  right: 80px;
+  top: -16px;
+  z-index: -2;
+}
+#delar .delar-bg .delar-box .delar-Img-box .Img-box4 {
+  right: 24px;
+  top: 64px;
+  z-index: -1;
+}
+#delar .delar-bg .delar-box .delar-Img-box .Img-box5 {
+  right: 24px;
+  top: 64pxpx;
+  z-index: -1;
+}
+#delar .delar-bg .delar-box .delar-Img-box .Img-box6 {
+  right: 170px;
+  bottom: 23px;
+  z-index: -1;
+}
+
+#easyRent {
+  margin-top: 68px;
+}
+#easyRent .easyRent-heading {
+  text-align: center;
+  margin-bottom: 7rem;
+}
+#easyRent .easyRent-way-box {
+  gap: 7rem;
+}
+#easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper {
+  gap: 31px;
+}
+#easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper .easyRent-card-head .easyRent-rule-number {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #DDE8FF;
+}
+#easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper .easyRent-card-head .easyRent-card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -86px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 78px;
+  height: 78px;
+  border: 1px solid #DDE8FF;
+  background-color: #FFFFFF;
+}
+#easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper .easyRent-card-head .easyRent-card-arrowIcon {
+  max-width: 137px;
+  overflow: hidden;
+  top: -40px;
+  left: 50%;
+  transform: translateX(100%);
+}
+#easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper .easyRent-card-content {
+  text-align: center;
+}
+#easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper .easyRent-card-content .easyRent-card-title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+}
+#easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper .easyRent-card-content .easyRent-card-info {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #3F3F3F;
 }/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,65 @@
+#easyRent{
+    margin-top: 68px;
+    .easyRent-heading{
+        text-align: center;
+        margin-bottom: 7rem;
+    }
+    .easyRent-way-box{
+        
+        gap: 7rem;
+        .easyRent-card{
+            .easyRent-card-wepper{
+                gap: 31px;
+                .easyRent-card-head{
+                    .easyRent-rule-number{
+                        font-size: 80px;
+                        font-weight: 700;
+                        line-height: 16px;
+                        color: #DDE8FF;
+                    }
+                    .easyRent-card-icon{
+                        
+                        display: flex; 
+                        justify-content: center;
+                        align-items: center;
+                       
+                        top: -86px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 78px;
+                        height: 78px;
+                        border: 1px solid #DDE8FF ;
+                        background-color: #FFFFFF;
+                    }
+                    .easyRent-card-arrowIcon{
+                        max-width: 137px;
+                        overflow: hidden;
+                        top: -40px;
+                        left: 50%;
+                        transform: translateX(100%);
+                       
+
+                    }
+                }
+                .easyRent-card-content{
+                    text-align: center;
+                    .easyRent-card-title{
+                        font-size: 24px;
+                        font-weight: 500;
+                        line-height: 34px;
+                    }
+                    .easyRent-card-info{
+                        font-size: 16px;
+                        line-height: 25px;
+                        font-weight: 400;
+                        color: #3F3F3F;
+                    }
+                }
+            }
+           
+        }
+
+    }
+
+    
+}

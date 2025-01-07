@@ -1,0 +1,84 @@
+#delar{
+    padding-top: 80px;
+    .delar-bg{
+        padding-top: 90px;
+        padding-bottom: 90px;
+        background: #0C81F3;
+        z-index: 1;
+        .bg-img{
+          
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+            .bg-vactor-img{ 
+                max-width: 100%;
+                max-height: 100%;
+                object-fit: contain;
+            }
+        }
+        .delar-box{
+            gap: 30px;
+            padding-left: 7rem;
+            padding-right: 7rem;
+            .delar-content{
+                max-width: 535px;
+                width: 100%;
+                .delar-content-title{
+                  font-size: 40px;
+                  font-weight: 600;
+                  line-height: 50px;
+                  color: #FFFFFF;
+                }
+                .delar-content-info{
+                  font-size: 16px;
+                  line-height: 28px;
+                  font-weight: 400;
+                  color: #FFFFFF;
+                }
+                .delar-content-btn{
+                    margin-top: 40px;
+                    @include btnPrimary($pd:19px 30px, $color:#06131C, $bg:$color-white,$fsize:18px, $bra:4px, $border: none, $outline: none,  $tran: 0.4s, $hoverBG: $primary-color, $hoverCol: #06131C )
+                  
+                }
+        
+            }
+            .delar-Img-box{
+              
+                padding-top: 40px;
+                padding-bottom: 40px;
+                max-height: 350px;
+                .Img-box1{
+                    height: 238px;
+                    left: 40px;
+                    bottom: 48px; 
+                }
+                .Img-box2{
+                    right: 145px;
+                    top: -60px;
+                }
+                .Img-box3{
+                    right: 80px;
+                    top: -16px;
+                    z-index: -2;
+                }
+                .Img-box4{     
+                    right: 24px;
+                    top: 64px;
+                    z-index: -1;
+                }
+                .Img-box5{    
+                    right: 24px;
+                    top: 64pxpx;
+                    z-index: -1;
+                }
+                .Img-box6{        
+                    right: 170px;
+                    bottom: 23px;
+                    z-index: -1;
+                }
+        
+            }
+         }
+    }
+
+}
