@@ -1,9 +1,60 @@
 #app{
-    .appbg-bx{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    .appbg-box{
+        width: 100%;
+        background-color: #F2F8FF;
+        z-index: 1;
         .app-bg-img{
-            .appbg-img{
-
+            z-index: -1;
+            bottom: 0;
+            left: 120px;
+        }
+        .app-content-box{
+            padding-left: 84px;
+            padding-right: 84px;
+            .app-content{
+                padding-top: 116px;
+                max-width: 607px;
+                width: 100%;
+                .app-content-subtitle{
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    color: #0C81F3;
+                }
+                .app-content-title{
+                    margin-top: 27px;
+                    margin-bottom: 30px;
+                    font-size: 40px;
+                    font-weight: 600;
+                    line-height: 50px;
+                }
+                .app-content-info{
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    color: #5B5B5B;
+                    margin-bottom: 0 !important;
+                }
+                .app-content-btnBox{
+                    margin-top: 56px;
+                    gap: 30px;
+                    a{
+                        border-radius: 6px;
+                        transition: 0.4s ;
+                        border: 1px solid transparent;
+                        img{
+                            border-radius: 6px;
+                        }
+                        &:hover{
+                            border: 1px solid #0C81F3;
+                        }
+                    }
+                }
             }
         }
     }
+    
 }
+
