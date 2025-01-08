@@ -1,0 +1,540 @@
+/*here all responsive css*/
+
+@media #{$mobile} {
+    .header{
+        .header-top{
+            display: none;
+        }
+    }
+    // hereo setion media 
+    .hero{
+        .hero-benner{
+            .hero-search{
+                margin-top: 95px;
+                padding-left: 20px;
+                padding-right: 20px;
+
+               .from{
+                flex-direction: column;
+                gap: 20px;
+                .row{
+                    gap: 20px;
+                    width: 100%;
+                    padding-left: 6px;
+                    .input-items{
+                        padding-left: 0 !important;
+                        padding-right: 0 !important;
+                        margin-top: 0;
+                    }
+                }
+                .btn-search{
+                    margin-left: 0 !important;
+                    width: 100%;
+                }
+              }
+            } 
+       } 
+    
+   }
+
+//    here end app
+// here end hero 
+// hero brand 
+
+
+
+// here end brand 
+
+
+// here future car
+
+#RentCar{
+    .rentalCard-wepper{
+        .card-WepperBox{
+            .Latest_Services_card{
+                .Latest_Scard_ImgBox {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
+// here end future car
+
+// here future rent car 
+#popularCar{
+    .rentalCard-wepper{
+        .card-WepperBox{
+            .Latest_Services_card{
+                .Latest_Scard_ImgBox {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
+//  here end future rent car 
+
+// here delar section
+#delar{
+    padding-top: 40px;
+    .delar-bg{
+        .delar-box{
+            gap: 49px;
+            padding-left: 38px;
+            padding-right: 26px;
+            .delar-content{
+               
+               
+                .delar-content-title{
+               
+                }
+                .delar-content-info{
+                
+                }
+                .delar-content-btn{
+                    margin-top: 40px;
+                    @include btnPrimary($pd:19px 30px, $color:#06131C, $bg:$color-white,$fsize:18px, $bra:4px, $border: none, $outline: none,  $tran: 0.4s, $hoverBG: $primary-color, $hoverCol: #06131C )
+                  
+                }
+        
+            }
+           
+         }
+    }
+   
+}
+
+// end the dealr section
+// easyRent section 
+#easyRent{
+    margin-top: 68px;
+    .easyRent-heading{
+       
+    }
+    .easyRent-way-box{
+        display: flex;
+       flex-direction: column;
+        
+        gap: 7rem;
+        .easyRent-card{
+            .easyRent-card-wepper{
+                gap: 31px;
+                .easyRent-card-head{
+                    .easyRent-rule-number{
+                       
+                    }
+                    .easyRent-card-icon{
+                        
+                        display: flex; 
+                        justify-content: center;
+                        align-items: center;
+                       
+                        top: -86px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 78px;
+                        height: 78px;
+                        border: 1px solid #DDE8FF ;
+                        background-color: #FFFFFF;
+                    }
+                    .easyRent-card-arrowIcon{
+                    display: none;
+                       
+
+                    }
+                }
+                .easyRent-card-content{
+                    text-align: center;
+                    .easyRent-card-title{
+                     
+                    .easyRent-card-info{
+                     
+                    }
+                }
+            }
+           
+        }
+
+    }
+   
+    
+}
+}
+
+// easy Rent section 
+
+// here app section
+#app{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .appbg-box{
+        .app-content-box{
+            flex-direction: column;
+            padding-left: 31px;
+            padding-right: 32px;
+            .app-details{
+                width: 100%;
+                .app-bg-img{
+                    max-width: 390px;
+                    aspect-ratio: 390px/174px;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+            .app-img {
+               width: 100%;
+               .app-img-box{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+               } 
+            }
+        }
+    }
+}
+// here end the app
+// here footer design
+#footer{
+  
+ .footer-box{
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 40px;
+    padding-left: 20px;
+    .footerbox-item{
+        .eamil-input{
+           width: 300px;
+        }
+    }
+ }
+ .footer-copyright-box{
+    flex-direction: column;
+    gap: 10px;
+    .move-home{
+        display: none;
+    }
+    ul{
+        display: flex;
+        gap: 5px;
+    }
+    p{
+        margin-bottom: 0 !important;
+    }
+ }
+
+ 
+}
+// here end footer
+
+}
+
+
+
+
+
+
+@media #{$phone-tab} {
+    .header{
+        .header-top{
+            display: none;
+        }
+    }
+    // hereo setion media 
+    .hero{
+        .hero-benner{
+            .hero-search{
+                margin-top: 95px;
+                padding-left: 20px;
+                padding-right: 20px;
+
+               .from{
+                flex-direction: column;
+                gap: 20px;
+                .row{
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    gap: 20px;
+                    width: 100%;
+                   
+                    .input-items{
+                        padding-left: 0 !important;
+                        padding-right: 0 !important;
+                        margin-top: 0;
+                    }
+                }
+                .btn-search{
+                    margin-left: 0 !important;
+                    width: 100%;
+                }
+              }
+            } 
+       } 
+    
+   }
+// here future car
+
+#RentCar{
+
+ 
+    .rentalCard-wepper{
+        .card-WepperBox{
+            .row{
+                display: grid !important;
+                grid-template-columns: auto auto;
+                
+                .Latest_Services_card{
+                    .Latest_Scard_ImgBox {
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+// here end future car
+
+// here future rent car 
+#popularCar{
+    .rentalCard-wepper{
+        .card-WepperBox{
+        .row{
+            display: grid !important;
+            grid-template-columns: auto auto;
+
+            .Latest_Services_card{
+                .Latest_Scard_ImgBox {
+                    max-width: 100%;
+                }
+            }
+        }
+
+            
+        }
+    }
+}
+//  here end future rent car 
+#delar{
+    padding-top: 40px;
+    .delar-bg{
+        .delar-box{
+            gap: 49px;
+            padding-left: 38px;
+            padding-right: 26px;
+            .delar-content{
+               
+               
+                .delar-content-title{
+               
+                }
+                .delar-content-info{
+                
+                }
+                .delar-content-btn{
+                    margin-top: 40px;
+                    @include btnPrimary($pd:19px 30px, $color:#06131C, $bg:$color-white,$fsize:18px, $bra:4px, $border: none, $outline: none,  $tran: 0.4s, $hoverBG: $primary-color, $hoverCol: #06131C )
+                  
+                }
+        
+            }
+           
+         }
+    }
+   
+}
+#easyRent{
+    margin-top: 68px;
+    .easyRent-heading{
+       
+    }
+    .easyRent-way-box{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 6rem;  
+        .easyRent-card{
+
+            .easyRent-card-wepper{
+                gap: 31px;
+                .easyRent-card-head{
+                    .easyRent-rule-number{
+                       
+                    }
+                    .easyRent-card-icon{
+                        
+                        display: flex; 
+                        justify-content: center;
+                        align-items: center;
+                       
+                        top: -86px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 78px;
+                        height: 78px;
+                        border: 1px solid #DDE8FF ;
+                        background-color: #FFFFFF;
+                    }
+                    .easyRent-card-arrowIcon{
+                    display: none;
+                       
+
+                    }
+                }
+                .easyRent-card-content{
+                    text-align: center;
+                    .easyRent-card-title{
+                     
+                    .easyRent-card-info{
+                     
+                    }
+                }
+            }
+           
+        }
+
+    }
+   
+    
+}
+}
+
+// here app section
+#app{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .appbg-box{
+        .app-content-box{
+            flex-direction: column;
+            padding-left: 31px;
+            padding-right: 32px;
+            .app-details{
+                width: 100%;
+                .app-bg-img{
+                    max-width: 390px;
+                    aspect-ratio: 390px/174px;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+            .app-img {
+               width: 100%;
+               .app-img-box{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+               } 
+            }
+        }
+    }
+}
+// here end the app
+// here footer design
+#footer{
+  
+    .footer-box{
+      display: grid !important;
+      grid-template-columns: auto auto;
+       gap: 40px;
+       padding-top: 40px;
+       padding-left: 20px;
+       .footerbox-item{
+           .eamil-input{
+              width: 300px;
+           }
+       }
+    }
+    .footer-copyright-box{
+       flex-direction: column;
+       gap: 10px;
+       .move-home{
+           display: none;
+       }
+       ul{
+           display: flex;
+           gap: 5px;
+       }
+       p{
+           margin-bottom: 0 !important;
+       }
+    }
+   
+    
+   }
+   // here end footer
+
+
+}
+
+@media #{$tab-land} {
+    #easyRent{
+        margin-top: 68px;
+        .easyRent-heading{
+           
+        }
+        .easyRent-way-box{
+           
+            .easyRent-card{
+                .easyRent-card-wepper{
+                    gap: 31px;
+                    .easyRent-card-head{
+                        .easyRent-rule-number{
+                           
+                        }
+                        .easyRent-card-icon{
+                            
+                            display: flex; 
+                            justify-content: center;
+                            align-items: center;
+                           
+                            top: -86px;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            width: 78px;
+                            height: 78px;
+                            border: 1px solid #DDE8FF ;
+                            background-color: #FFFFFF;
+                        }
+                        .easyRent-card-arrowIcon{
+                        display: none;
+                           
+    
+                        }
+                    }
+                    .easyRent-card-content{
+                        text-align: center;
+                        .easyRent-card-title{
+                         
+                        .easyRent-card-info{
+                         
+                        }
+                    }
+                }
+               
+            }
+    
+        }
+       
+        
+    }
+    }
+
+    
+}
+@media #{$pc-between} {
+   
+
+    
+}
+@media #{pc-medium} {
+   
+
+    
+}
+@media #{$pc-xl} {
+   
+
+    
+}

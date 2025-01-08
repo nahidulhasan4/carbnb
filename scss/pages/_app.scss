@@ -4,15 +4,18 @@
     .appbg-box{
         width: 100%;
         background-color: #F2F8FF;
-        z-index: 1;
-        .app-bg-img{
-            z-index: -1;
-            bottom: 0;
-            left: 120px;
-        }
+       
+        
         .app-content-box{
             padding-left: 84px;
             padding-right: 84px;
+           .app-details{
+            z-index: 1;
+            .app-bg-img{
+                z-index: -1;
+                bottom: 0;
+                left: 120px;
+            }
             .app-content{
                 padding-top: 116px;
                 max-width: 607px;
@@ -53,6 +56,7 @@
                     }
                 }
             }
+           }
         }
     }
     

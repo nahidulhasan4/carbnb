@@ -22,9 +22,9 @@
 
 <body>
   <!-- here header -->
-  <header id="header">
+  <header class="header">
     <!-- here heeader top section  -->
-    <div id="header-top">
+    <div class="header-top">
       <div class="container">
         <div class="header-top_Box d-flex justify-content-between">
           <ul class="header_conatctBOx d-flex align-items-center">
@@ -167,13 +167,13 @@
           <div class="hero-search">
             <div class="from">
               <div class="row g-2">
-                <div class="col-md">
+                <div class="col-md input-items">
                   <div class="form-floating">
                     <input type="email" class="form-control" placeholder="Dhaka, Mirpur" value="Dhaka, Mirpur" />
                     <label for="floatingInputGrid">From</label>
                   </div>
                 </div>
-                <div class="col-md">
+                <div class="col-md input-items">
                   <div class="form-floating">
                     <select class="form-select" id="floatingSelectGrid">
                       <option selected>Family Car</option>
@@ -185,13 +185,13 @@
                   </div>
                 </div>
 
-                <div class="col-md">
+                <div class="col-md input-items">
                   <div class="form-floating">
                     <input type="date" class="form-control" />
                     <label for="floatingInputGrid">Pick Up Date</label>
                   </div>
                 </div>
-                <div class="col-md">
+                <div class="col-md input-items">
                   <div class="form-floating">
                     <input type="date" class="form-control" id="floatingInputGrid" />
                     <label for="floatingInputGrid">Return Date</label>
@@ -1994,13 +1994,14 @@
     <!-- here start the Popular Car section -->
     <!-- here start the Dealar section -->
     <section id="delar">
-      <div class="delar-bg position-relative">
-        <div class="bg-img position-absolute ">
-          <img src="./img/delar/vendor-bg.png" alt="img" class="bg-vactor-img " />
-        </div>
+      <div class="delar-bg ">
+       
         <div class="container">
-          <div class="delar-box row">
-            <div class="col-lg-6 delar-content">
+          <div class="delar-box row ">
+            <div class="col-lg-6 col-md-6 delar-content position-relative">
+              <div class="bg-img position-absolute ">
+                <img src="./img/delar/vendor-bg.png" alt="img" class="bg-vactor-img " />
+              </div>
               <h2 class="delar-content-title ">
                 Do You Want To Car Dealer with Carsbnb?
               </h2>
@@ -2012,25 +2013,11 @@
                 Become a Vendor
               </button>
             </div>
-            <div class=" col-lg-6 position-relative delar-Img-box">
-              <div class="position-absolute Img-box1 ">
-                <img src="./img/delar/vendor-img-1.png " alt="img" class="w-100 h-100" />
-              </div>
-              <div class="position-absolute Img-box2  ">
-                <img src="./img/delar/vendor-img-2.png" alt="img" />
-              </div>
-              <div class="position-absolute Img-box3">
-                <img src="./img/delar/Rectangle-1.png " alt="img" />
-              </div>
-              <div class="position-absolute Img-box4 ">
-                <img src="./img/delar/Rectangle-1.png" alt="img" />
-              </div>
-              <div class="position-absolute Img-box5 ">
-                <img src="./img/delar/vendor-img-3.png" alt="img" />
-              </div>
-              <div class="position-absolute Img-box6">
-                <img src="./img/delar/vector-1.png" alt="img" />
-              </div>
+            <div class=" col-lg-6 col-md-6 delar-Img-box">
+             
+                <img src="./img/delar/Group 1000009355 (1).png" alt="img" class="w-100 h-100" />
+             
+            
             </div>
           </div>
         </div>
@@ -2048,7 +2035,7 @@
         </div>
         <div class="easyRent-way-box row">
 
-          <div class="col easyRent-card">
+          <div class="col-lg-3 col-md-6 col-12 easyRent-card ">
             <div class="d-flex flex-column easyRent-card-wepper justify-content-center align-items-center  ">
               <div class="d-flex easyRent-card-head position-relative">
                 <h2 class="easyRent-rule-number">01</h2>
@@ -2076,7 +2063,7 @@
               </div>
             </div>
           </div>
-          <div class="col easyRent-card">
+          <div class="col-lg-3 col-md-6 col-12 easyRent-card easy-card-two">
             <div class="d-flex flex-column easyRent-card-wepper justify-content-center align-items-center  ">
               <div class="d-flex easyRent-card-head position-relative">
                 <h2 class="easyRent-rule-number">01</h2>
@@ -2119,7 +2106,7 @@
               </div>
             </div>
           </div>
-          <div class="col easyRent-card">
+          <div class="col-lg-3 col-md-6 col-12 easyRent-card">
             <div class="d-flex flex-column easyRent-card-wepper justify-content-center align-items-center  ">
               <div class="d-flex easyRent-card-head position-relative">
                 <h2 class="easyRent-rule-number">03</h2>
@@ -2150,7 +2137,7 @@
               </div>
             </div>
           </div>
-          <div class="col easyRent-card">
+          <div class="col-lg-3 col-md-6 col-12 easyRent-card">
             <div class="d-flex flex-column easyRent-card-wepper justify-content-center align-items-center  ">
               <div class="d-flex easyRent-card-head position-relative">
                 <h2 class="easyRent-rule-number">04</h2>
@@ -2185,12 +2172,13 @@
     <!-- here start the app section -->
     <section id="app">
       <div class="container">
-        <div class="appbg-box position-relative">
-          <div class="app-bg-img position-absolute">
-            <img src="./img/app/app-abs-1.png" class="appbg-img" alt="" srcset="">
-          </div>
+        <div class="appbg-box ">
+         
           <div class="row app-content-box">
-            <div class="col-6 ">
+            <div class="col-6 app-details position-relative">
+              <div class="app-bg-img position-absolute">
+                <img src="./img/app/app-abs-1.png" class="appbg-img" alt="" srcset="">
+              </div>
               <div class="relative app-content ">
                 <h5 class="app-content-subtitle">Download App Now</h5>
                 <h2 class="app-content-title">
@@ -2207,9 +2195,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
-              <div class="lg:absolute bottom-0 right-6" data-aos="fade-up" data-aos-delay="200"
-                data-aos-duration="1000">
+            <div class="col-6 app-img ">
+              <div class="app-img-box bottom-0 right-6" >
                 <img src="./img/app/app-img.png" alt="img" class="h-full" />
               </div>
             </div>
@@ -2364,6 +2351,10 @@
     crossorigin="anonymous"></script>
   <script src="./js/swiper10-bundle.min.js"></script>
   <script src="./js/plugin.js"></script>
+  <script src="./js/root.js">
+  
+
+  </script>
 </body>
 
 </html>
