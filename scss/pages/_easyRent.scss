@@ -5,9 +5,13 @@
         margin-bottom: 7rem;
     }
     .easyRent-way-box{
-       
-        gap: 7rem;
+        width: 100%;
+       display: flex ;
+        column-gap: 10rem ;
+        gap: 0;
+        margin: 0;
         .easyRent-card{
+           
             .easyRent-card-wepper{
                 gap: 31px;
                 .easyRent-card-head{

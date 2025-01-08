@@ -21,7 +21,7 @@ $tab-xl: "only screen and (min-width: 768px) and (max-width: 1200px)";
 $tab-land: "(max-width:1023px)";
 $pc-between: "only screen and (min-width: 1024px) and (max-width: 1200px)";
 $pc-small: "(max-width:1200px)";
-$pc-medium: "only screen and (min-width: 1024px) and (max-width: 1600px)";
+$pc-medium: "(min-width: 1024px) and (max-width: 1600px)";
 $pc-xl: "(max-width: 1600px)";
 
 

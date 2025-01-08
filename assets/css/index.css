@@ -764,7 +764,11 @@ li {
   margin-bottom: 7rem;
 }
 #easyRent .easyRent-way-box {
-  gap: 7rem;
+  width: 100%;
+  display: flex;
+  column-gap: 10rem;
+  gap: 0;
+  margin: 0;
 }
 #easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper {
   gap: 31px;
@@ -1086,7 +1090,7 @@ li {
     margin-top: 68px;
   }
   #easyRent .easyRent-way-box {
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     gap: 7rem;
   }
@@ -1233,7 +1237,7 @@ li {
     margin-top: 68px;
   }
   #easyRent .easyRent-way-box {
-    display: grid;
+    display: grid !important;
     grid-template-columns: auto auto;
     gap: 6rem;
   }
@@ -1314,6 +1318,174 @@ li {
 @media (max-width:1023px) {
   #easyRent {
     margin-top: 68px;
+  }
+  #easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper {
+    gap: 31px;
+  }
+  #easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper .easyRent-card-head .easyRent-card-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -86px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 78px;
+    height: 78px;
+    border: 1px solid #DDE8FF;
+    background-color: #FFFFFF;
+  }
+  #easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper .easyRent-card-head .easyRent-card-arrowIcon {
+    display: none;
+  }
+  #easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper .easyRent-card-content {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .header .header-top {
+    display: inline-block;
+  }
+  .hero .hero-benner .hero-search {
+    margin-top: 95px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hero .hero-benner .hero-search .from {
+    align-items: center;
+    gap: 20px;
+  }
+  .hero .hero-benner .hero-search .from .row {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    width: 100%;
+  }
+  .hero .hero-benner .hero-search .from .row .input-items {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-top: 0;
+  }
+  .hero .hero-benner .hero-search .from .btn-search {
+    margin-left: 0 !important;
+  }
+  #RentCar .rentalCard-wepper .card-WepperBox .row {
+    display: grid !important;
+    grid-template-columns: auto auto;
+  }
+  #RentCar .rentalCard-wepper .card-WepperBox .row .col-lg-3 {
+    width: 100%;
+  }
+  #RentCar .rentalCard-wepper .card-WepperBox .row .Latest_Services_card .Latest_Scard_ImgBox {
+    max-width: 100%;
+  }
+  #popularCar .rentalCard-wepper .card-WepperBox .row {
+    display: grid !important;
+    grid-template-columns: auto auto;
+  }
+  #popularCar .rentalCard-wepper .card-WepperBox .row .col-lg-3 {
+    width: 100%;
+  }
+  #popularCar .rentalCard-wepper .card-WepperBox .row .Latest_Services_card .Latest_Scard_ImgBox {
+    max-width: 100%;
+  }
+  #easyRent {
+    margin-top: 68px;
+  }
+  #easyRent .easyRent-heading {
+    text-align: center;
+    margin-bottom: 7rem;
+  }
+  #easyRent .easyRent-way-box {
+    width: 100%;
+    display: flex !important;
+    flex-wrap: wrap;
+    column-gap: 5rem !important;
+    gap: 0;
+    margin: 0;
+  }
+  #easyRent .easyRent-way-box .easyRent-card {
+    width: fit-content;
+  }
+  #easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper {
+    gap: 31px;
+  }
+  #easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper .easyRent-card-head .easyRent-rule-number {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #DDE8FF;
+  }
+  #easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper .easyRent-card-head .easyRent-card-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -86px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 78px;
+    height: 78px;
+    border: 1px solid #DDE8FF;
+    background-color: #FFFFFF;
+  }
+  #easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper .easyRent-card-head .easyRent-card-arrowIcon {
+    max-width: 137px;
+    overflow: hidden;
+    top: -40px;
+    left: 50%;
+    transform: translateX(100%);
+  }
+  #easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper .easyRent-card-content {
+    text-align: center;
+  }
+  #easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper .easyRent-card-content .easyRent-card-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+  }
+  #easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper .easyRent-card-content .easyRent-card-info {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #3F3F3F;
+  }
+  #delar {
+    padding-top: 40px;
+  }
+  #delar .delar-bg .delar-box {
+    gap: 49px;
+    padding-left: 38px;
+    padding-right: 26px;
+  }
+  #delar .delar-bg .delar-box .delar-content .delar-content-btn {
+    margin-top: 40px;
+    padding: 19px 30px;
+    background: #E8EFFF;
+    color: #06131C;
+    font-size: 18px;
+    border-radius: 4px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  #delar .delar-bg .delar-box .delar-content .delar-content-btn:hover {
+    background: #0C81F3;
+    color: #06131C;
+  }
+  #app .appbg-box .app-content-box {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  #footer .footer-box {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 65px;
+  }
+}
+@media pc-medium {
+  #easyRent .easyRent-way-box {
+    display: flex;
+    gap: 7rem;
   }
   #easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper {
     gap: 31px;

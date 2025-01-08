@@ -113,7 +113,7 @@
        
     }
     .easyRent-way-box{
-        display: flex;
+        display: flex !important;
        flex-direction: column;
         
         gap: 7rem;
@@ -231,11 +231,6 @@
 
 }
 
-
-
-
-
-
 @media #{$phone-tab} {
     .header{
         .header-top{
@@ -350,7 +345,7 @@
        
     }
     .easyRent-way-box{
-        display: grid;
+        display: grid !important;
         grid-template-columns: auto auto;
         gap: 6rem;  
         .easyRent-card{
@@ -477,6 +472,7 @@
         .easyRent-way-box{
            
             .easyRent-card{
+                
                 .easyRent-card-wepper{
                     gap: 31px;
                     .easyRent-card-head{
@@ -523,16 +519,271 @@
 
     
 }
-@media #{$pc-between} {
-   
+@media #{$tab-xl} {
+    .header{
+        .header-top{
+            display: inline-block;
+        }
+    }
+ // hereo setion media 
+ .hero{
+    .hero-benner{
+        .hero-search{
+            margin-top: 95px;
+            padding-left: 20px;
+            padding-right: 20px;
+
+           .from{
+           align-items: center;
+            gap: 20px;
+            .row{
+                display: grid;
+                grid-template-columns: auto auto auto auto ;
+                gap: 20px;
+                width: 100%;
+               
+                .input-items{
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+                    margin-top: 0;
+                }
+            }
+            .btn-search{
+                margin-left: 0 !important;
+                
+            }
+          }
+        } 
+   } 
+
+}
+
+#RentCar{
+
+ 
+    .rentalCard-wepper{
+        .card-WepperBox{
+            .row{
+                display: grid !important;
+                grid-template-columns: auto auto;
+
+                .col-lg-3{
+                    width: 100%;
+                }
+                
+                .Latest_Services_card{
+                    .Latest_Scard_ImgBox {
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+// here end future car
+
+// here future rent car 
+#popularCar{
+    .rentalCard-wepper{
+        .card-WepperBox{
+        .row{
+            display: grid !important;
+            grid-template-columns: auto auto;
+            .col-lg-3{
+                width: 100%;
+            }
+
+            .Latest_Services_card{
+                .Latest_Scard_ImgBox {
+                    max-width: 100%;
+                }
+            }
+        }
+
+            
+        }
+    }
+}
+//  here end future rent car 
+
+#easyRent{
+    margin-top: 68px;
+    .easyRent-heading{
+        text-align: center;
+        margin-bottom: 7rem;
+    }
+    .easyRent-way-box{
+        width: 100%;
+       display: flex !important;
+       flex-wrap: wrap;
+        column-gap: 5rem !important;
+        gap: 0;
+        margin: 0;
+        .easyRent-card{
+            width: fit-content;
+            .easyRent-card-wepper{
+                gap: 31px;
+                .easyRent-card-head{
+                    .easyRent-rule-number{
+                        font-size: 80px;
+                        font-weight: 700;
+                        line-height: 16px;
+                        color: #DDE8FF;
+                    }
+                    .easyRent-card-icon{
+                        
+                        display: flex; 
+                        justify-content: center;
+                        align-items: center;
+                       
+                        top: -86px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 78px;
+                        height: 78px;
+                        border: 1px solid #DDE8FF ;
+                        background-color: #FFFFFF;
+                    }
+                    .easyRent-card-arrowIcon{
+                        max-width: 137px;
+                        overflow: hidden;
+                        top: -40px;
+                        left: 50%;
+                        transform: translateX(100%);
+                       
+
+                    }
+                }
+                .easyRent-card-content{
+                    text-align: center;
+                    .easyRent-card-title{
+                        font-size: 24px;
+                        font-weight: 500;
+                        line-height: 34px;
+                    }
+                    .easyRent-card-info{
+                        font-size: 16px;
+                        line-height: 25px;
+                        font-weight: 400;
+                        color: #3F3F3F;
+                    }
+                }
+            }
+           
+        }
+
+    }
 
     
+}
+#delar{
+    padding-top: 40px;
+    .delar-bg{
+        .delar-box{
+            gap: 49px;
+            padding-left: 38px;
+            padding-right: 26px;
+            .delar-content{
+               
+               
+                .delar-content-title{
+               
+                }
+                .delar-content-info{
+                
+                }
+                .delar-content-btn{
+                    margin-top: 40px;
+                    @include btnPrimary($pd:19px 30px, $color:#06131C, $bg:$color-white,$fsize:18px, $bra:4px, $border: none, $outline: none,  $tran: 0.4s, $hoverBG: $primary-color, $hoverCol: #06131C )
+                  
+                }
+        
+            }
+           
+         }
+    }
+   
+}
+
+#app{
+    .appbg-box {
+        .app-content-box{
+            padding-left: 45px;
+          padding-right: 45px;
+        }
+    }
+}
+#footer{
+    .footer-box {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        gap: 65px;
+    }
+} 
+
+
 }
 @media #{pc-medium} {
    
+    #easyRent{
+        
+        .easyRent-heading{
+           
+        }
+        .easyRent-way-box{
+            
+            display: flex;
+            gap: 7rem;
+          
+            .easyRent-card{
 
+                .easyRent-card-wepper{
+                    gap: 31px;
+                    .easyRent-card-head{
+                        .easyRent-rule-number{
+                           
+                        }
+                        .easyRent-card-icon{
+                            
+                            display: flex; 
+                            justify-content: center;
+                            align-items: center;
+                           
+                            top: -86px;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            width: 78px;
+                            height: 78px;
+                            border: 1px solid #DDE8FF ;
+                            background-color: #FFFFFF;
+                        }
+                        .easyRent-card-arrowIcon{
+                        display: none;
+                           
+    
+                        }
+                    }
+                    .easyRent-card-content{
+                        text-align: center;
+                        .easyRent-card-title{
+                         
+                        .easyRent-card-info{
+                         
+                        }
+                    }
+                }
+               
+            }
+    
+        }
+       
+        
+    }
+    }
+    
     
 }
+
 @media #{$pc-xl} {
    
 
