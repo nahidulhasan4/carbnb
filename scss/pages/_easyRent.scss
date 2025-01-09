@@ -1,5 +1,6 @@
 #easyRent{
     margin-top: 68px;
+    overflow: hidden !important;
     .easyRent-heading{
         text-align: center;
         margin-bottom: 7rem;
@@ -56,6 +57,7 @@
                         line-height: 34px;
                     }
                     .easyRent-card-info{
+                        
                         font-size: 16px;
                         line-height: 25px;
                         font-weight: 400;

@@ -123,6 +123,10 @@
                     .latest-serviceCard-title{
                         color: #111111;
                         text-decoration: none;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 1;
+                        -webkit-box-orient: vertical;
+                        overflow: hidden;
                     }
                 }
             
@@ -166,7 +170,7 @@
                             }
                         }
             
-                        .Latest_service_User_star i {
+                        .Latest_service_User_star {
                             font-size: 11px;
                             color: #F2C94C;
                         }

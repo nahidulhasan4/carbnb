@@ -802,12 +802,12 @@
         margin-bottom: 7rem;
     }
     .easyRent-way-box{
-        display: flex;
-        gap: 5rem;
-        margin-left: 20px;
+      display: grid !important;
+      grid-template-columns: auto auto auto auto ;
+    
       
         .easyRent-card{
-            width: fit-content;
+           width: 100%;
             .easyRent-card-wepper{
                 gap: 31px;
                 .easyRent-card-head{
