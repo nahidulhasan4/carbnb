@@ -20,8 +20,9 @@
                 &:hover {
                     
                     
-                    .Latest_Scard_ImgBox img {
+                    .Latest_Scard_ImgBox .service-card-img {
                         transform: scale(1.1);
+                        transition: 0.4s;
                     }
             
                    
@@ -32,11 +33,11 @@
                     max-width: 342px;
                     aspect-ratio: 342px/217px;
             
-                    img {
+                    .service-card-img {
                         width: 100% !important;
                         height: 100%;
                         object-fit: cover;
-                        border-radius: 8px !important;
+                        border-radius: 8px 8px 0 0;
                         
                     }
                 }
@@ -91,7 +92,7 @@
                         margin-top: 18px;
                         padding: 0 8px;
                         .carbox-items{
-                            span{
+                            .carbox-icons{
                                 color: #5B5B5B;
                             }
                         }
@@ -119,14 +120,14 @@
                         transform: translateX(0);
                     }
             
-                    a {
+                    .latest-serviceCard-title{
                         color: #111111;
                         text-decoration: none;
                     }
                 }
             
                 .Latest_Scard_UserInfo {
-                    img {
+                    .user_info_img{
                         width: 25px;
                         height: 25px;
                         min-width: 25px;
@@ -140,9 +141,9 @@
                     .Latest_Scard_UserInfo {
                         display: flex;
                         align-items: center;
-                        gap: 10px; /* Add space between Latest_Scard_UserInfo and Latest_service_User_star */
+                        gap: 10px; 
             
-                        a {
+                        .user_info_imgBox {
                             display: flex;
                             align-items: center;
                             gap: 5px;
@@ -160,7 +161,7 @@
                         .Latest_service_User_reviewNumber {
                             color: #647082;
                             font-size: 14px;
-                            span{
+                            .letest_ServiceCard_review{
                                 color: #06131C;
                             }
                         }
@@ -173,8 +174,8 @@
                 }
             
                 .Latest_service_book_btn {
-                    display: block; /* Change to block for full width */
-                    width: 100%; /* Ensure full width */
+                    display: block; 
+                    width: 100%; 
                     padding: 10px 20px;
                     background-color: #E8EFFF;
                     color: #333333;
@@ -193,6 +194,17 @@
                 }
             }
             
+        }
+        .small-device-btn{
+            justify-content: center;
+            .btn-search{
+                display: none;
+                margin-bottom: 20px;
+                
+                @include btnPrimary($pd:19px 30px, $color:$color-white, $bg:$primary-color,$fsize:18px, $bra:4px, $border: none, $outline: none,  $tran: 0.4s, $hoverBG: #006DD7, $hoverCol: $color-white)
+                
+
+            }
         }
     }
 }

@@ -1,16 +1,124 @@
 /*here all responsive css*/
+// small device 
+@media only screen and (min-width: 300px) and (max-width: 346px){
+    .brandBox {
+        .brand_heading {
+            gap: 18px;
+            margin-bottom: 30px;
+
+            .brand_slider {
+                
+                display: none !important;
+                
+            }
+                   
+            }
+       
+         
+            .small_brand_slider{
+                margin-top: 20px;
+                display: inline-block !important;
+                gap: 20px;
+                button{
+                    border: none;
+                }
+
+                span {
+                    padding: 16px 21px;
+                    background-color: #E8EFFF;
+                    border-radius: 4px;
+                    transition: 0.4;
+                    &:hover {
+                        background-color: $primary-color; 
+                        path{
+                             stroke: $color-white;
+                            }
+                           
+                         }
+                    }
+            }
+        }
+#ooferCar{
+            .offerCar-box{
+                .brand_heading {
+                    gap: 18px;
+                    margin-bottom: 30px;
+        
+                    .brand_slider {
+                        display: none !important;
+                     }
+                           
+                    }
+                    .smaill-device{
+                        margin-top: 20px;
+                        .small_brand_slider{
+                            display: inline-block !important ;
+                            gap: 20px;
+                            button{
+                                border: none;
+                            }
+            
+                            span {
+                                padding: 16px 21px;
+                                background-color: #E8EFFF;
+                                border-radius: 4px;
+                                transition: 0.4;
+                                &:hover {
+                                    background-color: $primary-color; 
+                                    path{
+                                         stroke: $color-white;
+                                        }
+                                       
+                                     }
+                                }
+                        }
+                       }
+            }
+        }
+}
+@media only screen and (min-width: 347px){
+    .brandBox {
+            .small_brand_slider{
+                display: none  !important;
+                gap: 20px;  
+            }
+        }
+
+        #ooferCar{
+            .offerCar-box{
+                .small-device{
+                  
+                    display: none !important;
+                   
+                }
+            }
+        }
+}
 
 @media #{$mobile} {
     .header{
         .header-top{
-            display: none;
+            display: none !important;
         }
     }
     // hereo setion media 
     .hero{
+        padding-top: 110px;
         .hero-benner{
+            .hero-text{
+                .hero_heading {
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+                .hero-title{
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 34px;
+                }
+
+            }
             .hero-search{
-                margin-top: 95px;
+                margin-top: 45px;
                 padding-left: 20px;
                 padding-right: 20px;
 
@@ -42,6 +150,14 @@
 // hero brand 
 
 
+.brand_heading {
+    .brand_heading-title{
+        font-size: 24px !important;
+        font-weight: 500;
+        line-height: 34px;
+    }
+
+}
 
 // here end brand 
 
@@ -50,25 +166,53 @@
 
 #RentCar{
     .rentalCard-wepper{
+       .brand_heading {
+      .brand_slider {
+        display: none !important;
+      }
+    
+     }
         .card-WepperBox{
             .Latest_Services_card{
+                
                 .Latest_Scard_ImgBox {
                     max-width: 100%;
                 }
             }
         }
+        .small-device-btn{
+            .btn-search{
+                display: inline-block !important;
+            }
+        }
     }
 }
-// here end future car
-
-// here future rent car 
+.Latest_Services_card{
+    .Latest_Scard_title{
+        font-size: 20px !important;
+        font-weight: 500 !important;
+    }
+}
+ 
 #popularCar{
     .rentalCard-wepper{
+        .brand_heading {
+            .brand_slider {
+              display: none !important;
+            }
+          
+           }
         .card-WepperBox{
             .Latest_Services_card{
+              
                 .Latest_Scard_ImgBox {
                     max-width: 100%;
                 }
+            }
+        }
+        .small-device-btn{
+            .btn-search{
+                display: inline-block !important;
             }
         }
     }
@@ -79,6 +223,8 @@
 #delar{
     padding-top: 40px;
     .delar-bg{
+        padding-top: 50px;
+        padding-bottom: 50px;
         .delar-box{
             gap: 49px;
             padding-left: 38px;
@@ -87,10 +233,15 @@
                
                
                 .delar-content-title{
-               
+                  font-size: 24px !important;
+                  font-weight: 500;
+                  line-height: 34px;
                 }
                 .delar-content-info{
-                
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 28px;
+                margin-bottom: 0 !important;
                 }
                 .delar-content-btn{
                     margin-top: 40px;
@@ -110,15 +261,26 @@
 #easyRent{
     margin-top: 68px;
     .easyRent-heading{
-       
+        .easyRent_subTitle{
+         font-size: 14px;
+         line-height: 14px;
+         font-weight: 400;
+        }
+        .easyRent-title{
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 34px;
+        }
     }
     .easyRent-way-box{
         display: flex !important;
-       flex-direction: column;
+        flex-direction: column;
         
         gap: 7rem;
         .easyRent-card{
+           
             .easyRent-card-wepper{
+                width: 100% !important;
                 gap: 31px;
                 .easyRent-card-head{
                     .easyRent-rule-number{
@@ -147,10 +309,13 @@
                 .easyRent-card-content{
                     text-align: center;
                     .easyRent-card-title{
-                     
-                    .easyRent-card-info{
-                     
-                    }
+                     font-size: 20px;
+                     font-weight: 600;
+                     line-height: 30px;
+                       }
+                .easyRent-card-info{
+                     font-size: 16px;
+                     font-weight: 400;
                 }
             }
            
@@ -175,6 +340,29 @@
             padding-right: 32px;
             .app-details{
                 width: 100%;
+                .app-content{
+                    text-align: center;
+                    .app-content-subtitle{
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 14px;
+
+                    }
+                    .app-content-title{
+                        font-size: 24px;
+                        font-weight: 500;
+                        line-height: 34px;
+                        margin-top: 18px;
+                        margin-bottom: 20px !important;
+                    }
+                    .app-content-info{
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                    .app-content-btnBox{
+                        margin-top: 34px !important;
+                    }
+                }
                 .app-bg-img{
                     max-width: 390px;
                     aspect-ratio: 390px/174px;
@@ -206,7 +394,7 @@
     padding-left: 20px;
     .footerbox-item{
         .eamil-input{
-           width: 300px;
+           max-width: 300px;
         }
     }
  }
@@ -216,11 +404,11 @@
     .move-home{
         display: none;
     }
-    ul{
+    .footer-privacy{
         display: flex;
         gap: 5px;
     }
-    p{
+    .copy-right-title{
         margin-bottom: 0 !important;
     }
  }
@@ -231,10 +419,12 @@
 
 }
 
+
+
 @media #{$phone-tab} {
     .header{
         .header-top{
-            display: none;
+            display: none !important;
         }
     }
     // hereo setion media 
@@ -447,11 +637,11 @@
        .move-home{
            display: none;
        }
-       ul{
+       .footer-privacy{
            display: flex;
            gap: 5px;
        }
-       p{
+       .copy-right-title{
            margin-bottom: 0 !important;
        }
     }
@@ -515,10 +705,9 @@
        
         
     }
-    }
-
-    
+    }   
 }
+
 @media #{$tab-xl} {
     .header{
         .header-top{
@@ -784,8 +973,3 @@
     
 }
 
-@media #{$pc-xl} {
-   
-
-    
-}

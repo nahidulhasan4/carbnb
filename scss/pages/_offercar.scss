@@ -25,6 +25,29 @@
                     }
                     }
                    
-            }
+        }
+        .small-device{
+            margin-top: 30px;
+            .small_brand_slider {
+                gap: 20px;
+                button{
+                    border: none;
+                }
+
+                span {
+                    padding: 16px 21px;
+                    background-color: #E8EFFF;
+                    border-radius: 4px;
+                    transition: 0.4;
+                    &:hover {
+                        background-color: $primary-color; 
+                        path{
+                             stroke: $color-white;
+                            }
+                           
+                         }
+                    }
+                    }
+        }
     }
 }

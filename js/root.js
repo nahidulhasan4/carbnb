@@ -1,22 +1,12 @@
-window.addEventListener("scroll", function(){
-    let header=  document.querySelector(".header");
-    let headerTop = document.querySelector(".header-top")
-    let ScroolE = header.classList.toggle('sticky', window.scrollY > 0);
 
-   if( ScroolE === true){
-    headerTop.style.display ="none";
-    let sticky= document.querySelector("sticky")
-    header.classList.remove("header")
-    sticky.sytle.position ="sticky"
-   }else{
-    headerTop.style.display ="inline-block";
-   
-   }
-
-})
-window.addEventListener("scroll", function(){
-    let header=  document.querySelector(".sticky");
-    
-    let ScroolE = header.classList.toggle('header', window.scrollY < false);
-    
-})
+window.onscroll = function () {
+  var header = document.querySelector(".header");
+  var headerTop = document.querySelector(".header-top");
+  if (window.scrollY > 0) {
+    header.classList.add("sticky");
+    headerTop.style.display = "none";
+  } else {
+    header.classList.remove("sticky");
+    headerTop.style.display = "block";
+  }
+};

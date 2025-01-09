@@ -1,4 +1,5 @@
 #app{
+    overflow: hidden;
     margin-top: 80px;
     margin-bottom: 80px;
     .appbg-box{
@@ -43,11 +44,11 @@
                 .app-content-btnBox{
                     margin-top: 56px;
                     gap: 30px;
-                    a{
+                    .app-btn-ImgBox{
                         border-radius: 6px;
                         transition: 0.4s ;
                         border: 1px solid transparent;
-                        img{
+                        .app-btn-img{
                             border-radius: 6px;
                         }
                         &:hover{
