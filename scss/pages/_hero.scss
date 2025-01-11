@@ -134,6 +134,10 @@
                     .nav-link{
                         color: #006DD7;
                     }
+                    &:after {
+                        display: none;
+
+                    }
 
                 }
             }

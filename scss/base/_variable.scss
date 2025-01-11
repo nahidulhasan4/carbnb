@@ -15,10 +15,10 @@ $outfit: "Outfit", sans-serif;
 // responsive-------------------->
 $small-device: "(max-width: 346px)";
 $mobile: "(max-width: 576px)";
-$phone-tab: "only screen and (min-width: 576px) and (max-width: 767px)";
+$phone-tab: "only screen and (min-width: 576px) and (max-width: 768px)";
 $tab-port: "(max-width:768px)";
-$tab-between: "only screen and (min-width: 768px) and (max-width: 1023px)";
-$tab-xl: "only screen and (min-width: 768px) and (max-width: 1200px)";
+$tab-between: "only screen and (min-width: 769px) and (max-width: 1023px)";
+$tab-xl: "only screen and (min-width: 769px) and (max-width: 1200px)";
 $tab-land: "(max-width:1023px)";
 $pc-between: "only screen and (min-width: 1024px) and (max-width: 1200px)";
 $pc-small: "(max-width:1200px)";

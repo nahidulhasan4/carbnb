@@ -10,10 +10,12 @@
     }
     .easyRent-way-box{
       
-        width: 100%;
-        display: flex ;
-      
-        gap: 0;
+       width: 100%;
+       display: grid;
+       grid-template-columns:repeat(auto-fit,minmax(237px, 1fr));
+       grid-template-rows: 1fr;
+        grid-column-gap: 60px;
+       
         margin: 0;
         .easyRent-card{
            

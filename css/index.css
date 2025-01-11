@@ -187,6 +187,9 @@ li {
 .sticky .navbar .nav-menu .nav-item:hover .nav-link {
   color: #006DD7;
 }
+.sticky .navbar .nav-menu .nav-item:hover:after {
+  display: none;
+}
 .sticky .navbar .nav-menu .btn-search {
   padding: 19px 30px;
   background: #0C81F3;
@@ -789,6 +792,9 @@ li {
   background: #0C81F3;
 }
 #delar .delar-bg .delar-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-rows: 1fr;
   gap: 119px;
   padding-left: 7rem;
   padding-right: 7rem;
@@ -856,8 +862,10 @@ li {
 }
 #easyRent .easyRent-way-box {
   width: 100%;
-  display: flex;
-  gap: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(237px, 1fr));
+  grid-template-rows: 1fr;
+  grid-column-gap: 60px;
   margin: 0;
 }
 #easyRent .easyRent-way-box .easyRent-card .easyRent-card-wepper {
@@ -1198,8 +1206,11 @@ li {
   .header .header-top {
     display: none !important;
   }
+  .sticky {
+    margin-top: 1px !important;
+  }
   .hero {
-    padding-top: 110px;
+    padding-top: 195px;
   }
   .hero .hero-benner .hero-text .hero_heading {
     font-size: 16px;
@@ -1422,9 +1433,12 @@ li {
     margin-bottom: 0 !important;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 576px) and (max-width: 768px) {
   .header .header-top {
     display: none !important;
+  }
+  .sticky {
+    margin-top: -2px;
   }
   .hero .hero-benner .hero-search {
     margin-top: 95px;
@@ -1571,6 +1585,9 @@ li {
   }
 }
 @media (max-width:1023px) {
+  .sticky {
+    margin-top: -64px;
+  }
   #easyRent {
     margin-top: 68px;
   }
@@ -1596,7 +1613,7 @@ li {
     text-align: center;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
   .header .header-top {
     display: inline-block;
   }
@@ -1651,8 +1668,11 @@ li {
     margin-bottom: 7rem;
   }
   #easyRent .easyRent-way-box {
-    display: grid !important;
-    grid-template-columns: auto auto auto auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(237px, 1fr));
+    grid-template-rows: 1fr;
+    grid-row-gap: 90px;
+    grid-column-gap: 40px;
   }
   #easyRent .easyRent-way-box .easyRent-card {
     width: 100%;
