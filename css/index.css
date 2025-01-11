@@ -1310,6 +1310,13 @@ li {
     background: #0C81F3;
     color: #06131C;
   }
+  #delar .delar-bg .delar-box .delar-Img-box {
+    max-width: 245px !important;
+  }
+  #delar .delar-bg .delar-box .delar-Img-box .dealr-img {
+    width: 100%;
+    object-fit: cover;
+  }
   #easyRent {
     margin-top: 68px;
   }

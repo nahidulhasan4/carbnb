@@ -258,6 +258,13 @@
                 }
         
             }
+            .delar-Img-box{
+                max-width: 245px !important;
+                .dealr-img{
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
            
          }
     }
