@@ -9,3 +9,9 @@ window.onscroll = function () {
   
   }
 };
+// here input filed js code
+document.querySelectorAll(".hero-date").forEach((item) => {
+  item.addEventListener("focus", function () {
+    this.showPicker();
+  });
+});

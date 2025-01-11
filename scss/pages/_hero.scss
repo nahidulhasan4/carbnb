@@ -1,3 +1,37 @@
+.date-input-wrapper {
+    width: fit-content;
+  }
+  
+  input {
+    width: 100%;
+  }
+  
+  input[type=date]::-webkit-calendar-picker-indicator {
+    visibility: hidden;
+  }
+  
+  .date-input-wrapper {
+    position: relative;
+  }
+  
+  .date-input-wrapper::after {
+    display: none;
+    width: 17px;
+    height: 16px;
+    background: red;
+    /* background: white; */
+    position: absolute;
+    content: "";
+    right: 0px;
+    top: 2px;
+  }
+  
+  @supports not selector(::-webkit-calendar-picker-indicator) {
+    .date-input-wrapper::before {
+      display: block;
+    }
+  }
+
 .header {
     width: 100vw;
     position: fixed;
