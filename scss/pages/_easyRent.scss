@@ -1,6 +1,6 @@
 #easyRent{
     margin-top: 68px;
-    overflow: hidden !important;
+    
     .easyRent-heading{
         text-align: center;
         margin-bottom: 7rem;
@@ -9,6 +9,7 @@
         }
     }
     .easyRent-way-box{
+      
         width: 100%;
         display: flex ;
         column-gap: 10rem ;
@@ -19,6 +20,8 @@
             .easyRent-card-wepper{
                 gap: 31px;
                 .easyRent-card-head{
+                    max-width: 84px;
+                    max-height: 128px;
                     .easyRent-rule-number{
                         font-size: 80px;
                         font-weight: 700;
@@ -57,7 +60,7 @@
                         line-height: 34px;
                     }
                     .easyRent-card-info{
-                        
+
                         font-size: 16px;
                         line-height: 25px;
                         font-weight: 400;

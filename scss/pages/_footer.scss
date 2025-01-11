@@ -124,22 +124,23 @@
             background-color: #0C81F3;
             border-radius: 4px;
         }
-        p{
+        .copy-right-title{
             color: #5B5B5B;
             font-size: 20px;
             font-weight: 400;
-            span{
+            .carHeadr{
                 color: #FFFFFF;
                 font-weight: 600;
             }
         }
         .footer-privacy {
             gap: 34px;
-            li{
+            .footer-privacy-items{
                 
-                a{
+                .footer-privacy-link{
                     color: #8B9592;
                     transition: 0.4s ;
+                
                     &:hover{
                      color: #FFFFFF;
                     }
