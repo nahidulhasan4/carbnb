@@ -839,6 +839,7 @@ li {
 #delar .delar-bg .delar-box .delar-Img-box {
   max-width: 530px;
   aspect-ratio: 530px/370px;
+  overflow-x: hidden !important;
 }
 #delar .delar-bg .delar-box .delar-Img-box img {
   width: 100%;
@@ -856,7 +857,6 @@ li {
 #easyRent .easyRent-way-box {
   width: 100%;
   display: flex;
-  column-gap: 10rem;
   gap: 0;
   margin: 0;
 }
@@ -1189,6 +1189,9 @@ li {
   }
   #ooferCar .offerCar-box .small-device {
     display: none !important;
+  }
+  #delar {
+    overflow: hidden !important;
   }
 }
 @media (max-width: 576px) {

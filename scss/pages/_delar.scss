@@ -47,6 +47,7 @@
             .delar-Img-box{
                 max-width: 530px;
                 aspect-ratio: 530px/370px;
+                overflow-x: hidden !important;
                 img{
                     width: 100%;
                     height: 100%;
